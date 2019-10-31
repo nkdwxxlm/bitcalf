@@ -1,0 +1,86 @@
+#insideCir{
+    width:300px;
+    height:300px;
+    border:2px solid #36a978;
+    border-radius:50%;
+    animation:myfirst 10s infinite linear;
+    position:relative;
+    top:-735px;
+    }
+    @keyframes myfirst
+    {
+    from {transform:rotate(0); }
+    to {transform:rotate(360deg);}
+    }
+    #insideSmallCir{
+    width:10px;
+    height:10px;
+    border:2px solid #36a978;
+    border-radius:50%;
+    position:absolute;
+    left:157px;
+    top:-7px;
+    background:white;
+    }
+    #insideSmallCirTow{
+        width:10px;
+        height:10px;
+        border:2px solid #36a978;
+        border-radius:50%;
+        position:absolute;
+        left:14px;
+        top:220px;
+        background:white;
+    }
+    #insideSmallCirThree{
+        width:10px;
+        height:10px;
+        border:2px solid #36a978;
+        border-radius:50%;
+        position:absolute;
+        left:269px;
+        top:225px;
+        background:white;
+    }
+    
+    #outsideCir{
+        width:350px;
+        height:350px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        animation:myfirst 9s infinite linear;
+        position:relative;
+        top:-1064px;
+        left: -24px;
+        }
+    #outsidesSmallCir{
+    width:10px;
+    height:10px;
+    border:2px solid #b189ff;
+    border-radius:50%;
+    position:absolute;
+    left:162px;
+    top:-8px;
+    background:white;
+    }
+    #outsidesSmallCirTow{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:13px;
+        top:252px;
+        background:white;
+    }
+    
+    #outsidesSmallCirThree{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:321px;
+        top:252px;
+        background:white;
+    }

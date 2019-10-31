@@ -1,0 +1,78 @@
+.oDiv{
+    display: inline-block;
+    line-height: 30px;
+    position: relative;
+}
+.oDiv > ul > li{
+    font-size: 12px;
+
+}
+Div > .div{
+    display: inline-block;
+    outline: none;
+    background: #ffd600;
+    border:none;
+}
+Div > .div:hover{
+    background: #ebc402;
+    cursor: pointer;
+
+}
+.oDiv > .Span:hover{
+    color:#ee9000;
+    cursor: pointer;
+}
+.oDiv > .Span > .FaSignal{
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 68px;
+}
+.oDiv > .Span > .FiMic{
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 128px;
+}
+Div > .inlineBlock{
+    display: inline-block;
+    float: left;
+    
+}
+Div > .inlineBlockleft{
+    display: inline-block;
+    float: left;
+    line-height: 70px;
+}
+.inlineBlock > .eye{
+    position: relative;
+}
+.inlineBlock > .eye > .FaEye{
+    position: absolute;
+    top:2px;
+    left: -20px;
+}
+.inlineBlock > .eye > .FaRocketchat{
+    position: absolute;
+    top:2px;
+    left: 55px;
+}
+.inlineBlock > .eye > .FaRegTimesCircle{
+    position: absolute;
+    top:-25px;
+    left: 95px;
+    font-size: 20px;
+}
+.inlineBlock > .eye > .FaRegTimesCircle:hover{
+    color:#ee9000;
+    cursor: pointer;
+}
+Div > .left{
+    float: left;
+}
+Div > .right{
+    float: left;
+}
+Div > .clearfix{
+    clear: both;
+}

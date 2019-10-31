@@ -1,0 +1,10 @@
+.Community{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    min-width:1200px;
+}
+
+.Community  section{
+    flex: 1;
+}

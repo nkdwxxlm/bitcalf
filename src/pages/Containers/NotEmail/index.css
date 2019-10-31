@@ -1,0 +1,21 @@
+.NotEmailInput{
+        outline: none;
+        width: 400px;
+        height: 35px;
+        border: 1px solid #d1d1d1;
+        border-radius: 5px;
+        padding: 10px;
+        margin-bottom: 20px;
+        color:black;
+}
+.NotEmailInput_a{
+    outline: none;
+    width: 260px;
+    height: 35px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color:black;
+    margin-right: 10px;
+}

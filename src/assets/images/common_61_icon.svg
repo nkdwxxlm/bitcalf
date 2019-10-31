@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="48px" viewBox="0 0 48 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>区块链社区</title>
+    <desc>Created with Sketch.</desc>
+    <g id="社区" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="1-3-节点" transform="translate(-76.000000, -621.000000)">
+            <g id="区块链社区" transform="translate(76.000000, 621.000000)">
+                <circle id="Oval" fill="#408FFD" fill-rule="nonzero" cx="24" cy="24" r="24"></circle>
+                <g id="Group-2" transform="translate(10.000000, 8.000000)">
+                    <path d="M14.5,1.9665476 L26.8681232,23.0629479 L2.16602133,23.0629479 L14.5,1.9665476 Z" id="Triangle" stroke="#FFFFFF" stroke-width="0.8379" stroke-linecap="square" stroke-dasharray="0.8378999602794647,1.675799920558929"></path>
+                    <path d="M14.5,1.64102564 L14.5,12.3076923" id="Line" stroke="#FFFFFF" stroke-width="0.8379" stroke-linecap="square" stroke-dasharray="0.8378999602794647,1.675799920558929"></path>
+                    <path d="M1.94263165,23.0629479 L14.5170723,15.1794872" id="Line-2" stroke="#FFFFFF" stroke-width="0.8379" stroke-linecap="square" stroke-dasharray="0.8378999602794647,1.675799920558929"></path>
+                    <path d="M26.8681232,23.0629479 L14.5,15.1794872" id="Line-3" stroke="#FFFFFF" stroke-width="0.8379" stroke-linecap="square" stroke-dasharray="0.8378999602794647,1.675799920558929"></path>
+                    <ellipse id="Oval" fill="#FFFFFF" cx="14.5" cy="16" rx="2.9" ry="2.87179487"></ellipse>
+                    <ellipse id="Oval-Copy" fill="#FFFFFF" cx="26.9285714" cy="8.61538462" rx="2.07142857" ry="2.05128205"></ellipse>
+                    <ellipse id="Oval-Copy-2" fill="#FFFFFF" cx="14.5" cy="2.05128205" rx="2.07142857" ry="2.05128205"></ellipse>
+                    <ellipse id="Oval-Copy-3" fill="#FFFFFF" cx="2.07142857" cy="8.61538462" rx="2.07142857" ry="2.05128205"></ellipse>
+                    <ellipse id="Oval-Copy-4" fill="#FFFFFF" cx="2.07142857" cy="22.5641026" rx="2.07142857" ry="2.05128205"></ellipse>
+                    <ellipse id="Oval-Copy-5" fill="#FFFFFF" cx="14.5" cy="29.9487179" rx="2.07142857" ry="2.05128205"></ellipse>
+                    <ellipse id="Oval-Copy-6" fill="#FFFFFF" cx="26.9285714" cy="22.5641026" rx="2.07142857" ry="2.05128205"></ellipse>
+                    <polygon id="Polygon" stroke="#FFFFFF" stroke-width="1.25685" fill-rule="nonzero" points="14.5 1.64102564 27.0573684 8.82051282 27.0573684 23.1794872 14.5 30.3589744 1.94263165 23.1794872 1.94263165 8.82051282"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

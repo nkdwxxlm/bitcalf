@@ -1,0 +1,37 @@
+.pricebg{
+    background:rgb(0,157,248);
+}
+.right{
+    border: 2px dashed rgb(235,235,235) ;
+    border-right:none ;
+    border-top:none ;
+    border-bottom:none ;
+}
+.cred{
+    color: rgb(255,87,42);
+}
+.wordcolor{
+    color:rgb(165,165,165);
+}
+
+
+.ant-tabs-tab-active.ant-tabs-tab{
+    padding: 0 !important;
+}
+.ant-tabs-ink-bar{
+    padding: 0;
+    height: 0;
+}
+.pppo{
+    border: 2px solid rgb(0,157,248); 
+    border-left:none ;
+    border-right:none ;
+    border-bottom:none ;
+}
+.ant-tabs-nav .ant-tabs-tab{
+    padding: 0;
+}
+.pppo:link,:visited :active
+{
+    background: #0000FF !important;
+}

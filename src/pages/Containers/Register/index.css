@@ -1,0 +1,27 @@
+.oinput{
+    outline: none;
+    width: 400px;
+    height: 35px;
+    border: 1px solid #d1d1d1;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color:black;
+}
+.input{
+    outline: none;
+    width: 270px;
+}
+.chekbox{
+    outline: none;
+    margin-right: 10px;
+}
+
+.login{
+    color: #4880fd;;
+    position: absolute;
+    right: 0;
+}
+.NotEmail{
+    color:#888888;
+}

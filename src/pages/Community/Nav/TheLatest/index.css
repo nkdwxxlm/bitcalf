@@ -1,0 +1,78 @@
+.oDiv{
+    display: inline-block;
+    line-height: 30px;
+    position: relative;
+}
+.oDiv > ul > li{
+    font-size: 12px;
+
+}
+.div{
+    display: inline-block;
+    outline: none;
+    background: #ffd600;
+    border:none;
+}
+.div:hover{
+    background: #ebc402;
+    cursor: pointer;
+
+}
+.Span:hover{
+    color:#ee9000;
+    cursor: pointer;
+}
+.FaSignal{
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+    left: 68px;
+}
+.FiMic{
+    display: inline-block;
+    position: absolute;
+    top: 2px;
+    left: 132px;
+}
+.inlineBlock{
+    display: inline-block;
+    float: left;
+    
+}
+.inlineBlockleft{
+    display: inline-block;
+    float: left;
+    line-height: 70px;
+}
+.eye{
+    position: relative;
+}
+.FaEye{
+    position: absolute;
+    top:2px;
+    left: -20px;
+}
+.FaRocketchat{
+    position: absolute;
+    top:2px;
+    left: 55px;
+}
+.FaRegTimesCircle{
+    position: absolute;
+    top:-25px;
+    left: 95px;
+    font-size: 20px;
+}
+.FaRegTimesCircle:hover{
+    color:#ee9000;
+    cursor: pointer;
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+}
+.clearfix{
+    clear: both;
+}

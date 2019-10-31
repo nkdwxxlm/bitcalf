@@ -1,0 +1,153 @@
+/* 外圆 */
+#maxCir{
+    width:3000px;
+    height:3000px;
+    border:2px solid #36a978;
+    border-radius:50%;
+    /* animation:myfirst 10s infinite linear; */
+    position:relative;
+    top:-500px;
+    }
+
+    /* 动画 */
+    @keyframes myfirst
+    {
+    from {transform:rotate(0); }
+    to {transform:rotate(360deg);}
+    }
+
+    /* 外圆上的4个小圆 */
+    #maxSmallCir{
+    width:10px;
+    height:10px;
+    border:2px solid #36a978;
+    border-radius:50%;
+    position:absolute;
+    background:white;
+    top:61px;
+    left: 1039px;
+    }
+    #maxSmallCirTwo{
+        width:10px;
+        height:10px;
+        border:2px solid #36a978;
+        border-radius:50%;
+        position:absolute;
+        left:1323px;
+        top: 2px;
+        background:white;
+    }
+    #maxSmallCirThree{
+        width:10px;
+        height:10px;
+        border:2px solid #36a978;
+        border-radius:50%;
+        position:absolute;
+        left:1616px;
+        top: -2px;
+        background:white;
+    }
+    #maxSmallCirFour{
+        width:10px;
+        height:10px;
+        border:2px solid #36a978;
+        border-radius:50%;
+        position:absolute;
+        left:1920px;
+        top: 55px;
+        background:white;
+    }
+    
+    /* 内圆 */
+    #minCir{
+        width:3000px;
+        height:3000px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        animation:myfirst 100s infinite linear;
+        position:relative;
+        left: 0px;
+        top: -3470px;
+        }
+    #minSmallCir{
+    width:10px;
+    height:10px;
+    border:2px solid #b189ff;
+    border-radius:50%;
+    position:absolute;
+    left:1550px;
+    top:-6px;
+    background:white;
+    }
+    #minSmallCirTwo{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:400px;
+        top:464px;
+        background:white;
+    }
+    
+    #minSmallCirThree{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:-1px;
+        top:1640px;
+        background:white;
+    }
+    #minSmallCirFour{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:626px;
+        top:2718px;
+        background:white;
+    }
+    #minSmallCirFive{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:1850px;
+        top:2951px;
+        background:white;
+    }
+    #minSmallCirSix{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:1850px;
+        top:2951px;
+        background:white;
+    }
+    #minSmallCirSeven{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:2814px;
+        top:2207px;
+        background:white;
+    }
+    #minSmallCirEight{
+        width:10px;
+        height:10px;
+        border:2px solid #b189ff;
+        border-radius:50%;
+        position:absolute;
+        left:2894px;
+        top:954px;
+        background:white;
+    }
+

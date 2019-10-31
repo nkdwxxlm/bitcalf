@@ -1,0 +1,12 @@
+.Priceb{
+    border: 2px solid rgb(216,216,216);
+    border-top:none ;
+    border-right:none ;
+    border-left: none;
+}
+.pricebg{
+    background:rgb(113,146,234);
+}
+.Pricec{
+    color: rgb(113,146,234);
+}
