@@ -6,7 +6,7 @@ import Tab from './Tab';
 const OrePool = () => {
     return (
         <Div wp={100}  jc="c"  bg="fe"  >
-            <Div w={1160}  >
+            <Div w={1160} h={800}  >
               <Price />
               <Tab />
             </Div>

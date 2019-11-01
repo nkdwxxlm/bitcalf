@@ -1,6 +1,7 @@
 import React from 'react';
 import { Div, Img } from '../../../assets/style';
 import { Tabs } from 'antd';
+import "antd/dist/antd.css"
 import "./index.css";
 const { TabPane } = Tabs;
 
@@ -12,7 +13,7 @@ const Tab = () => {
       <Tabs defaultActiveKey="1" >
         <TabPane className="sadff"
           tab={
-            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={300} h={55} className="pppo" >
+            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={300}  h={55} className="pppo" >
               <Img src={require("../../../assets/images/WX20191028-173111.png")} />
               比特币
                </Div>
@@ -75,7 +76,7 @@ const Tab = () => {
 
         <TabPane
           tab={
-            <Div jc="c" ai="c" bg="s" fs={15} c="f3" w={300} h={55} className="pppo"  ml={-32} >
+            <Div jc="c" ai="c"  bg="ff" fs={15} c="f3" w={300} h={55} className="pppo"  ml={-32} >
               <Img src={require("../../../assets/images/WX20191028-173111.png")} />
               比特币
                </Div>
@@ -139,8 +140,8 @@ const Tab = () => {
     </TabPane>
         <TabPane
           tab={
-            <Div jc="c" ai="c" bg="p" fs={15} c="f3" w={300} h={55} className="pppo"  ml={-32} >
-            <Img src={require("../../../assets/images/WX20191028-173111.png")} />
+            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={560} h={55} className="pppo"  ml={-32} >
+            <Img ml={-265} src={require("../../../assets/images/WX20191028-173111.png")} />
             比特币
              </Div>
           }

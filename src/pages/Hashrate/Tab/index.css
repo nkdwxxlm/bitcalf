@@ -27,6 +27,7 @@
     border-left:none ;
     border-right:none ;
     border-bottom:none ;
+    background: rgb(235,244,251);
 }
 .ant-tabs-nav .ant-tabs-tab{
     padding: 0;
