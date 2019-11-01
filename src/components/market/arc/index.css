@@ -19,7 +19,7 @@
     border-radius:50%;
     position:absolute;
     left:157px;
-    top:-7px;
+    top:-5px;
     background:white;
     }
     #insideSmallCirTow{
@@ -29,7 +29,7 @@
         border-radius:50%;
         position:absolute;
         left:14px;
-        top:220px;
+        top:218px;
         background:white;
     }
     #insideSmallCirThree{
@@ -39,7 +39,7 @@
         border-radius:50%;
         position:absolute;
         left:269px;
-        top:225px;
+        top:222px;
         background:white;
     }
     
@@ -60,7 +60,7 @@
     border-radius:50%;
     position:absolute;
     left:162px;
-    top:-8px;
+    top:-6px;
     background:white;
     }
     #outsidesSmallCirTow{
@@ -70,7 +70,7 @@
         border-radius:50%;
         position:absolute;
         left:13px;
-        top:252px;
+        top:248px;
         background:white;
     }
     

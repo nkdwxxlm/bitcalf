@@ -1,6 +1,8 @@
 import React from 'react';
+import { Link ,Route} from 'react-router-dom';
 import { Div, Img } from '../../../assets/style';
 import { Tabs } from 'antd';
+import TabPay from '../TabPay';
 import "antd/dist/antd.css"
 import "./index.css";
 const { TabPane } = Tabs;
@@ -13,7 +15,7 @@ const Tab = () => {
       <Tabs defaultActiveKey="1" >
         <TabPane className="sadff"
           tab={
-            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={300}  h={55} className="pppo" >
+            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={300} h={55} className="pppo" >
               <Img src={require("../../../assets/images/WX20191028-173111.png")} />
               比特币
                </Div>
@@ -68,7 +70,10 @@ const Tab = () => {
                 <Div fs={35} className="cred"> $45.00</Div>
                 <Div fs={20} mt={15} ml={10} className="cred" >$75.00</Div>
               </Div>
-              <Div w={200} h={45} className="pricebg" ml={50} mt={20} r={15} c="ff" fs={15} jc="c" ai="c"> 阅读详情</Div>
+              <Link to="/Hashrate/tabpay">
+                <Div w={200} h={45} className="pricebg" ml={50} mt={20} r={15} c="ff" fs={20} b jc="c" ai="c"> 立即购买</Div>
+              </Link>
+              <Route path="/Hashrate/tabpay" component={TabPay}></Route>
             </Div>
 
           </Div>
@@ -76,14 +81,14 @@ const Tab = () => {
 
         <TabPane
           tab={
-            <Div jc="c" ai="c"  bg="ff" fs={15} c="f3" w={300} h={55} className="pppo"  ml={-32} >
+            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={300} h={55} className="pppo" ml={-32} >
               <Img src={require("../../../assets/images/WX20191028-173111.png")} />
               比特币
                </Div>
           }
           key="2"
         >
-            <Div w={1160} mt={-16} jc="sb" h={260} bg="ff" >
+          <Div w={1160} mt={-16} jc="sb" h={260} bg="ff" >
             <Div mt={8}>
               <Div w={860} h={70} jc="c" c="f3" ai="c" fs={20} >BTC哈希率</Div>
               <Div w={860} h={220} jc="sa">
@@ -136,18 +141,18 @@ const Tab = () => {
             </Div>
 
           </Div>
-          
-    </TabPane>
+
+        </TabPane>
         <TabPane
           tab={
-            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={560} h={55} className="pppo"  ml={-32} >
-            <Img ml={-265} src={require("../../../assets/images/WX20191028-173111.png")} />
-            比特币
+            <Div jc="c" ai="c" bg="ff" fs={15} c="f3" w={560} h={55} className="pppo" ml={-32} >
+              <Img ml={-265} src={require("../../../assets/images/WX20191028-173111.png")} />
+              比特币
              </Div>
           }
           key="3"
         >
-            <Div w={1160} mt={-16} jc="sb" h={260} bg="ff" >
+          <Div w={1160} mt={-16} jc="sb" h={260} bg="ff" >
             <Div mt={8}>
               <Div w={860} h={70} jc="c" c="f3" ai="c" fs={20} >BTC哈希率</Div>
               <Div w={860} h={220} jc="sa">
@@ -196,11 +201,12 @@ const Tab = () => {
                 <Div fs={35} className="cred"> $45.00</Div>
                 <Div fs={20} mt={15} ml={10} className="cred" >$75.00</Div>
               </Div>
-              <Div w={200} h={45} className="pricebg" ml={50} mt={20} r={15} c="ff" fs={15} jc="c" ai="c"> 阅读详情</Div>
+              <Link>
+                <Div w={200} h={45} className="pricebg" ml={50} mt={20} r={15} c="ff" fs={15} jc="c" ai="c"> 立即购买</Div>
+              </Link>
             </Div>
-
           </Div>
-    </TabPane>
+        </TabPane>
       </Tabs>
     </Div>
   )

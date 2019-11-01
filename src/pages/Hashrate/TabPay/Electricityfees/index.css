@@ -1,0 +1,21 @@
+.ass{
+    border: 0.5px dashed rgb(142,142,142);
+    border-right:none ;
+    border-left: none;
+}
+.asb{
+    width: 300px;
+    height: 30px;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    margin: 30px;
+}
+.asc{
+    margin: 10px;
+    width: 500px;
+    height: 50px;
+    border: 1px solid rgb(254,243,223); 
+    background: rgb(254,243,223);
+}

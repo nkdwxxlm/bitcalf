@@ -24,7 +24,7 @@
     border-radius:50%;
     position:absolute;
     background:white;
-    top:61px;
+    top:64px;
     left: 1039px;
     }
     #maxSmallCirTwo{
@@ -34,7 +34,7 @@
         border-radius:50%;
         position:absolute;
         left:1323px;
-        top: 2px;
+        top: 4px;
         background:white;
     }
     #maxSmallCirThree{
@@ -44,7 +44,7 @@
         border-radius:50%;
         position:absolute;
         left:1616px;
-        top: -2px;
+        top: -1px;
         background:white;
     }
     #maxSmallCirFour{
@@ -54,7 +54,7 @@
         border-radius:50%;
         position:absolute;
         left:1920px;
-        top: 55px;
+        top: 56px;
         background:white;
     }
     
@@ -76,7 +76,7 @@
     border-radius:50%;
     position:absolute;
     left:1550px;
-    top:-6px;
+    top:-5px;
     background:white;
     }
     #minSmallCirTwo{
@@ -86,7 +86,7 @@
         border-radius:50%;
         position:absolute;
         left:400px;
-        top:464px;
+        top:467px;
         background:white;
     }
     
@@ -96,7 +96,7 @@
         border:2px solid #b189ff;
         border-radius:50%;
         position:absolute;
-        left:-1px;
+        left:1px;
         top:1640px;
         background:white;
     }
@@ -107,7 +107,7 @@
         border-radius:50%;
         position:absolute;
         left:626px;
-        top:2718px;
+        top:2716px;
         background:white;
     }
     #minSmallCirFive{
@@ -117,19 +117,10 @@
         border-radius:50%;
         position:absolute;
         left:1850px;
-        top:2951px;
+        top:2949px;
         background:white;
     }
-    #minSmallCirSix{
-        width:10px;
-        height:10px;
-        border:2px solid #b189ff;
-        border-radius:50%;
-        position:absolute;
-        left:1850px;
-        top:2951px;
-        background:white;
-    }
+  
     #minSmallCirSeven{
         width:10px;
         height:10px;
@@ -137,7 +128,7 @@
         border-radius:50%;
         position:absolute;
         left:2814px;
-        top:2207px;
+        top:2202px;
         background:white;
     }
     #minSmallCirEight{
@@ -147,7 +138,7 @@
         border-radius:50%;
         position:absolute;
         left:2894px;
-        top:954px;
+        top:960px;
         background:white;
     }
 

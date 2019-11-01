@@ -4,7 +4,7 @@ import { Div } from '../../../../assets/style';
 
 const TopLeft = () => {
     return (
-        <Div w={800} hp={100}  ai='c' c='f9' fs={14}>
+        <Div w={750} hp={100}  ai='c' c='f9' fs={14}>
             <Div jc>
                 8BTCCI:<Div pl={10} pr={20}>33%</Div>
             </Div>

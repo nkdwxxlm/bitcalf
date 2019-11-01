@@ -8,17 +8,17 @@ import Top from './Top';
 import Section from './Section';
 export default () => {
     return (
-        <Div>
+        <Div bg="ff">
 
             {/*     top */}
             <Div wp={100} jc='c' bg='f3'>
-                <Div w={1200} h={40}>
+                <Div w={1160} h={40}>
                     <Top />
                 </Div>
             </Div>
             {/*     nav  */}
             <Div wp={100} jc='c' >
-                <Div w={1200} h={70}>
+                <Div w={1160} h={70}>
                     <Nav />
                 </Div>
             </Div>
@@ -31,13 +31,13 @@ export default () => {
 
             {/*     brief */}
             <Div wp={100} h={200} jc='c'>
-                <Div w={1200} h={200}  >
+                <Div w={1160} h={200}  >
                     <Brief />
                 </Div>
             </Div>
             {/*     section */}
             <Div wp={100} jc='c' className='news'>
-                <Div w={1200}>
+                <Div w={1160}>
                     <Section />
                 </Div>
             </Div>
