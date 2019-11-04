@@ -1,0 +1,9 @@
+.circle {
+  position: absolute;
+  left: -5px;
+  top: 2px;
+}
+
+.ant-tabs-tab {
+  font-size: 20px;
+}

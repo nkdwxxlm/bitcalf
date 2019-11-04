@@ -1,33 +1,38 @@
 import React, { Fragment , PureComponent} from 'react';
 import { Div, Img } from '../../../../assets/style';
 // import { IoIosRadioButtonOff } from "react-icons/io";
+import { Tabs } from 'antd';
 import './section-right.scss';
+class SectionRight extends PureComponent {
+   
 
-const SectionRight = () => {
-  
+   
+render(){
+
+ const {TabPane} = Tabs;
+
     return (
+        
         <Fragment>
             <Div f={1} mt={30} ml={25}>
                 <Div>
-                    <Div bg="fe" pt={25} pb={25} pl={20} pr={20} >
-                        <Div pl={10} bl={[3, 's', 'w']} h={20} ai='c' fs={20} b>行情</Div>
-                        <Div jc='sb' pt={20} cp c='f9' >
-                            <Div ch='f0'>BTC</Div>
-                            <Div ch='f0'>ETH</Div>
-                            <Div ch='f0'>BTM</Div>
-                            <Div ch='f0'>BCH</Div>
-                            <Div ch='f0'>EOS</Div>
-                        </Div>
-                        <Div mt={20} wp={100} h={130}><Img wp={100} hp={100} src={require("../../../../assets/images/icon3.png")} /></Div>
-                        <Div className="pic1" mt={20} wp={100} h={130}><Img wp={100} hp={100} src={require("../../../../assets/images/icon3.png")} /></Div>
-                        <Div className="pic2" mt={20} wp={100} h={130}><Img wp={100} hp={100} src={require("../../../../assets/images/icon3.png")} /></Div>
-                        <Div className="pic3" mt={20} wp={100} h={130}><Img wp={100} hp={100} src={require("../../../../assets/images/icon3.png")} /></Div>
-                        <Div ai='c' jc='sb' pt={20} pb={20} bb={[1, 'd', 'f9']}>
-                            <Div>BTC/USDT<Div pt={5} fs={12} c='f9'>Huobi</Div></Div>
-                            <Div>¥66184.18<Div pt={5} fs={12} c='f9'>3961.27</Div></Div>
-                            <Div c='ff' r={3} jc='c' ai='c' fs={14} w={65} h={20} bg='s'>+0.96%</Div>
-                        </Div>
-                    </Div>
+                    <Tabs defaultActiveKey="1" className="tab-right">
+                        <TabPane tab="BTC" key="1">
+                        <Img wp={100} src={require("../../../../assets/images/icon3.png")}    />
+                        </TabPane>
+                        <TabPane tab="ETH" key="2">
+                        <Img wp={100} src={require("../../../../assets/images/icon1.png")}    />
+                        </TabPane>  
+                        <TabPane tab="BTM" key="3">
+                        <Img wp={100} src={require("../../../../assets/images/icon2.png")}    />
+                        </TabPane>  
+                        <TabPane tab="BCH" key="4">
+                        <Img wp={100} src={require("../../../../assets/images/icon4.png")}    />
+                        </TabPane>  
+                        <TabPane tab="EOS" key="5">
+                        <Img wp={100} src={require("../../../../assets/images/icon3.png")}    />
+                        </TabPane>      
+                    </Tabs>   
                 </Div>
                 <Div mt={30}>
                     <Div bg="fe" pt={25} pb={25} pl={20} pr={20} >
@@ -47,6 +52,7 @@ const SectionRight = () => {
             </Div>
         </Fragment>
     )
+}
 }
 
 export default SectionRight;

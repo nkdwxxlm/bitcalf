@@ -73,7 +73,6 @@ const Tab = () => {
               <Link to="/Hashrate/tabpay">
                 <Div w={200} h={45} className="pricebg" ml={50} mt={20} r={15} c="ff" fs={20} b jc="c" ai="c"> 立即购买</Div>
               </Link>
-              <Route path="/Hashrate/tabpay" component={TabPay}></Route>
             </Div>
 
           </Div>
